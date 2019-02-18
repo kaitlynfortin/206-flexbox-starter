@@ -107,29 +107,44 @@ body {
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  background: #262626;
 }
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  background-color: #262626;
+  height: inherit;
   width: 100%;
+  display: flex;
+  justify-content: flex-start
+}
+
+h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 3em;
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  background-color: #262626;
+  height: inherit;
   width: 100%;
+  padding: 25px 0px;
+  font-size: 1.25em;
+  border-bottom: #fff 2px solid;
+  align-items: center;
+  justify-content: center;
 }
 
+footer {
+    border-top: #fff 2px solid;
+}
 header,
 footer,
 main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 
 #div-1,
 #div-2,
@@ -139,7 +154,7 @@ main {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: auto;
 }
 
@@ -161,12 +176,13 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #262626;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid #555;
 }
 
 /* ==========================================================================
